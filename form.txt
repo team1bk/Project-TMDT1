@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>Buổi học đầu tiên</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <fieldset style="width: 350px">
+            <legend>Form thông tin đăng ký</legend>
+            <form action="#" method="post">
+                <label>Tên đăng nhập</label>
+                <input type="text" name="txtUser" placeholder="Điền tên đăng nhập"/><br/>
+                <label>Mật khẩu</label>
+                <input type="password" name="txtPass" placeholder="Điền mật khẩu"/><br/>
+                <label>Giới tính</label>
+                <input type="radio" name="rbGender" value="1" checked="true"/>Nam
+                <input type="radio" name="rbGender" value="0"/>Nữ<br/>
+                <label>Sở thích</label>
+                <input type="checkbox" name="chkFavorite[]" value="football"/>Bóng đá
+                <input type="checkbox" name="chkFavorite[]" value="eat"/>Ăn
+                <input type="checkbox" name="chkFavorite[]" value="game"/>Chơi Game<br/>
+                <label></label>
+                <select name="cbCity">
+                    <option value="hanoi">Hà Nội</option>
+                    <option value="hcm">TP.Hồ Chí Minh</option>
+                    <option value="hue">Huế</option>
+                </select><br/>
+                <label></label>
+                <input type="submit" name="btnReg" value="Đăng ký"/>
+                <input type="reset" name="btnReset" value="Huỷ đăng ký"/>
+                </form>
+            </fieldset>
+        </div>
+    </body>
+</html>
